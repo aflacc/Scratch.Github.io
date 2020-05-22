@@ -1,0 +1,28 @@
+@font-face {font-family: font;src: url(font.ttf);}
+body {background-color: rgb(26, 26, 26); font-family: 'font'; color: white; font-size: 20px; }
+/* Keyframes */
+@keyframes link {
+  0% {color: rgb(76, 168, 243);}
+  50% {color: rgb(81, 151, 231);}
+  100% {color: rgb(76, 168, 243);}
+}
+/* Defines the <div> classes */
+.background {background-color: rgba(41, 41, 41, 0.596); max-width: 1000px; margin: auto; padding: 10px; 
+border-top: 10px solid slateblue;}
+.background2 {background-color: rgba(41, 41, 41, 0.596); max-width: 1000px; margin: auto; padding: 10px; 
+border-top: 10px solid tomato;}
+.background3 {background-color: rgba(41, 41, 41, 0.596); max-width: 1000px; margin: auto; padding: 10px; 
+border-top: 10px solid springgreen;}
+.background4 {background-color: rgba(41, 41, 41, 0.596); max-width: 1000px; margin: auto; padding: 10px; 
+border-top: 10px solid khaki;}
+.title {font-size: 50px; text-align: center; border-bottom: 5px solid rgba(243, 243, 243, 0.438);}
+.text {font-size: 20px; margin: 5px;;}
+/* <a> classes */
+.italic {font-style: italic;}
+.bold {font-weight: bold;}
+.uline {text-decoration: underline;}
+.sthru {text-decoration: line-through;}
+a:link {text-decoration: unset;animation-name: link; animation-iteration-count: infinite; animation-duration: 2s; animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1)}
+a:link:hover {font-weight: bold;}
+.cs {text-align: center; font-size: 30px; font-family: monospace;}
+.followers {}
